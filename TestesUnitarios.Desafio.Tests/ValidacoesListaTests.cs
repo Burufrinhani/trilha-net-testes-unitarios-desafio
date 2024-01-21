@@ -1,5 +1,4 @@
 using TestesUnitarios.Desafio.Console.Services;
-using Xunit.Sdk;
 
 namespace TestesUnitarios.Desafio.Tests;
 
@@ -44,7 +43,6 @@ public class ValidacoesListaTests
         var numeroParaProcurar = 10;
 
         // Act
-
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         // Assert
@@ -60,7 +58,6 @@ public class ValidacoesListaTests
         var resultadoEsperado = new List<int> { 10, 14, 16, 18 };
         
         // Act
-
         var resultado = _validacoes.MultiplicarNumerosLista(lista, 2);
 
         // Assert
